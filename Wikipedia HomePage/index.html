@@ -1,0 +1,2180 @@
+<!--! Projet : reproduction de la page d'accueil de Wikipédia par Maxence-->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipédia, l'encyclopédie libre</title>
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!--* Header-->
+    <header>
+      <!-- Navbar-->
+      <!--! Mobile Version-->
+      <nav class="navbarMobile">
+        <div class="navContainerOne">
+          <img src="./img/menuLine.png" />
+          <a href="./index.html">
+            <img class="imageNavbar" src="./img/wikipediaLogoNavbar.png"
+          /></a>
+        </div>
+        <div class="search">
+          <input
+            class="searchInput"
+            type="search"
+            placeholder="Rechercher sur Wikipédia"
+          />
+          <span class="material-symbols-outlined searchSpan">search</span>
+        </div>
+      </nav>
+      <!--! Desktop Version-->
+      <nav class="navbarDesktop">
+        <div class="navbarContainerOne">
+          <img class="menuLineImage" src="./img/menuLine.png" />
+          <img class="imageLogoWikipedia" src="./img/wikipediaLogo.png" />
+          <div class="logoContainerNavbar">
+            <img
+              class="imageLogoWikipediaOther"
+              src="./img/wikipediaLogoNavbar.png"
+            />
+            <img
+              class="imageSousTitreLogoWikipedia"
+              src="./img/wikipediaLogoNavbar_2.png"
+            />
+          </div>
+        </div>
+        <div class="search">
+          <input
+            class="searchInput"
+            type="search"
+            placeholder="Rechercher sur Wikipédia"
+          />
+          <span class="material-symbols-outlined searchSpan">search</span>
+          <button class="buttonNavbar" type="button">Rechercher</button>
+        </div>
+        <div class="navbarLinks">
+          <p class="navbarLinksOne">
+            <a
+              href="https://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&returnto=Wikip%C3%A9dia%3AAccueil+principal"
+              >Créer un compte</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Connexion&returnto=Wikip%C3%A9dia%3AAccueil+principal"
+              >Se connecter</a
+            >
+          </p>
+          <span class="material-symbols-outlined">more_horiz</span>
+        </div>
+      </nav>
+      <!-- Title-->
+      <h1 class="headingMobile">Bienvenue sur Wikipédia</h1>
+      <div class="divHeadingDesktop">
+        <h1 class="headingDesktop">Bienvenue sur Wikipédia</h1>
+        <div class="ligneHorizontaleDesktop"></div>
+      </div>
+      <!-- Header 2-->
+      <nav class="navbarHeader2">
+        <ul class="navbarUlHeader2Container1">
+          <li style="margin-right: 20px; margin-top: 20px">
+            <a href="./index.html">Accueil</a>
+          </li>
+          <li style="margin-top: 20px">
+            <a
+              href="https://fr.wikipedia.org/wiki/Discussion_Wikip%C3%A9dia:Accueil_principal"
+              >Discussion</a
+            >
+          </li>
+        </ul>
+        <ul class="navbarUlHeader2Container2">
+          <li style="margin-right: 20px; margin-top: 20px">
+            <a
+              href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal"
+              >Lire</a
+            >
+          </li>
+          <li style="margin-right: 20px; margin-top: 20px">
+            <a
+              href="https://fr.wikipedia.org/w/index.php?title=Wikip%C3%A9dia:Accueil_principal&action=edit"
+              >Voir le texte source</a
+            >
+          </li>
+          <li style="margin-right: 20px; margin-top: 20px">
+            <a
+              href="https://fr.wikipedia.org/w/index.php?title=Wikip%C3%A9dia:Accueil_principal&action=history"
+              >Voir l'historique</a
+            >
+          </li>
+          <li style="margin-top: 20px">Outils</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--* Main content-->
+    <main class="mainMobileVersion">
+      <!-- Article (Page)-->
+      <article>
+        <!--TODO Section N°1-->
+        <section>
+          <h2>Article labellisé du jour</h2>
+          <div class="ligneHorizontale"></div>
+          <img class="imgSectionOne" src="./img/imgArticleLabellise.JPG" />
+          <p>
+            <a href="https://fr.m.wikipedia.org/wiki/Lescar" class="bold"
+              >Lescar</a
+            >
+            est une
+            <a href="https://fr.m.wikipedia.org/wiki/Commune_(France)"
+              >commune française</a
+            >
+            située dans le
+            <a
+              href="https://fr.m.wikipedia.org/wiki/D%C3%A9partement_fran%C3%A7ais"
+              >département</a
+            >
+            des
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Pyr%C3%A9n%C3%A9es-Atlantiques"
+              >Pyrénées-Atlantiques</a
+            >
+            en
+            <a href="https://fr.m.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+              >région</a
+            >
+            <a href="https://fr.m.wikipedia.org/wiki/Nouvelle-Aquitaine"
+              >Nouvelle-Aquitaine</a
+            >. Elle s'étend sur les contreforts de la chaîne des
+            <a href="https://fr.m.wikipedia.org/wiki/Pyr%C3%A9n%C3%A9es"
+              >Pyrénées</a
+            >, principalement au sein de la vallée du
+            <a href="https://fr.m.wikipedia.org/wiki/Gave_de_Pau">gave de Pau</a
+            >. La
+            <a href="https://fr.m.wikipedia.org/wiki/Ville_m%C3%A9di%C3%A9vale"
+              >ville médiévale</a
+            >
+            se développe sur un promontoire rocheux (Cité), surplombant le gave
+            au sud, et se trouve délimitée par le ruisseau du Lescourre au nord
+            puis par la plaine du
+            <a href="https://fr.m.wikipedia.org/wiki/Pont-Long">Pont-Long</a>.
+            Lescar est l'héritière de la cité
+            <a href="https://fr.m.wikipedia.org/wiki/Gaule_aquitaine"
+              >gallo-romaine</a
+            >
+            de Beneharnum, première capitale du peuple des
+            <a href="https://fr.m.wikipedia.org/wiki/B%C3%A9n%C3%A9harnais"
+              >Venarni</a
+            >
+            qui donne son nom à l'ancien État souverain du
+            <a href="https://fr.m.wikipedia.org/wiki/B%C3%A9arn">Béarn</a>. Des
+            traces de cette occupation
+            <a href="https://fr.m.wikipedia.org/wiki/Antiquit%C3%A9">antique</a>
+            sont retrouvées lors de fouilles menées, notamment dans le quartier
+            du Bialé, mais aussi avec la découverte des restes de la villa
+            Sent-Miquèu (Saint-Michel). La cité est en partie détruite durant le
+            ixe siècle lors des raids
+            <a href="https://fr.m.wikipedia.org/wiki/Vikings">vikings</a>.
+          </p>
+          <br />
+          <p>
+            Ayant perdu son rôle de capitale béarnaise, au profit de
+            <a href="https://fr.m.wikipedia.org/wiki/Morla%C3%A0s">Morlaàs</a>,
+            la cité se reconstruit à la fin du xe siècle sous l'impulsion du duc
+            de Gascogne
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Guillaume_Sanche_de_Gascogne"
+              >Guillaume Sanche</a
+            >. Il fait construire, en Haute-Ville, une chapelle dédiée à
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Marie_(m%C3%A8re_de_J%C3%A9sus)"
+              >sainte Marie</a
+            >
+            qui est consacrée
+            <a href="https://fr.m.wikipedia.org/wiki/Cath%C3%A9drale"
+              >cathédrale</a
+            >
+            en 1062. Elle devient le siège des
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Liste_des_%C3%A9v%C3%AAques_de_Lescar"
+              >évêques de Lescar</a
+            >, faisant suite à la cathédrale primitive de Saint-Julien en
+            Basse-Ville. Participant à la
+            <a href="https://fr.m.wikipedia.org/wiki/Reconquista" class="italic"
+              >Reconquista</a
+            >
+            au xiie siècle, l'évêque
+            <a href="https://fr.m.wikipedia.org/wiki/Guy_de_Lons"
+              >Guy de Lons</a
+            >
+            remplace la chapelle-cathédrale par l'actuelle
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame-de-l%27Assomption_de_Lescar"
+              >cathédrale Notre-Dame-de-l'Assomption</a
+            >
+            de style
+            <a href="https://fr.m.wikipedia.org/wiki/Architecture_romane"
+              >roman</a
+            >. L'évêché structure la vie lescarienne jusqu'à la
+            <a
+              href="https://fr.m.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise"
+              >Révolution</a
+            >, avec la construction d'un
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Palais_%C3%A9piscopal_de_Lescar"
+              >palais épiscopal</a
+            >
+            au xive siècle. Le Béarn devient un État
+            <a href="https://fr.m.wikipedia.org/wiki/Protestantisme"
+              >protestant</a
+            >
+            au xvie siècle sous la figure de
+            <a href="https://fr.m.wikipedia.org/wiki/Jeanne_d%27Albret"
+              >Jeanne d'Albret</a
+            >. Symbole du pouvoir catholique, la cathédrale subit le saccage de
+            l'armée de
+            <a href="https://fr.m.wikipedia.org/wiki/Gabriel_Ier_de_Montgommery"
+              >Montgommery</a
+            >
+            en 1569 durant les
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Guerres_de_Religion_(France)"
+              >guerres de Religion</a
+            >. Finalement, Lescar perd le siège de son diocèse en 1790 dans le
+            cadre d'un regroupement avec
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Dioc%C3%A8se_de_Bayonne,_Lescar_et_Oloron"
+              >Bayonne</a
+            >
+            et
+            <a href="https://fr.m.wikipedia.org/wiki/Dioc%C3%A8se_d%27Oloron"
+              >Oloron</a
+            >. De cette période, Lescar garde plusieurs éléments patrimoniaux
+            dont ses remparts, en partie antiques, avec la porte de l'Esquirette
+            et certaines tours les constituant. En 1929, la crypte renfermant
+            les dépouilles de neuf rois, reines, princes et princesses du
+            <a href="https://fr.m.wikipedia.org/wiki/Royaume_de_Navarre"
+              >royaume de Navarre</a
+            >
+            est découverte dans la cathédrale.
+          </p>
+          <br />
+          <p>
+            Lescar devient un centre éducatif, tout d'abord avec l'installation
+            de l'<a
+              href="https://fr.m.wikipedia.org/wiki/Acad%C3%A9mie_protestante_du_B%C3%A9arn"
+              >Académie protestante du Béarn</a
+            >
+            en 1562, puis avec la décision d'<a
+              href="https://fr.m.wikipedia.org/wiki/Henri_IV_(roi_de_France)"
+              >Henri</a
+            >
+            IV d'implanter un collège de
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Clercs_r%C3%A9guliers_de_Saint-Paul"
+              >Barnabites</a
+            >. Ce collège, construit au xviiie siècle, est l'ancêtre de l'actuel
+            <a href="https://fr.m.wikipedia.org/wiki/Lyc%C3%A9e_Jacques-Monod"
+              >lycée Jacques-Monod</a
+            >. Après la
+            <a
+              href="https://fr.m.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise"
+              >Révolution</a
+            >, la commune perd de son influence et devient un satellite de
+            <a href="https://fr.m.wikipedia.org/wiki/Pau">Pau</a>
+            avec une importante activité agricole. La démographie lescarienne
+            reste stable jusqu'aux années 1960, avant une période d'expansion
+            sous l'effet de la
+            <a href="https://fr.m.wikipedia.org/wiki/P%C3%A9riurbanisation"
+              >périurbanisation</a
+            >. Aujourd'hui, Lescar est une commune d'environ 10 000 habitants
+            située au cœur de l'<a
+              href="https://fr.m.wikipedia.org/wiki/Aire_urbaine_de_Pau"
+              >aire urbaine de Pau</a
+            >. Outre sa fonction résidentielle, la commune a développé une forte
+            activité commerciale autour de la
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Parc_d%27activit%C3%A9_commerciale"
+              >zone commerciale</a
+            >
+            Lescar Soleil. L'histoire agricole de la commune se poursuit
+            toujours, avec la présence du siège social du groupe coopératif
+            <a href="https://fr.m.wikipedia.org/wiki/Euralis">Euralis</a>.
+            Lescar est l'une des étapes de la
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Via_Tolosana"
+              class="italic"
+              >via Tolosana</a
+            >
+            du
+            <a
+              href="https://fr.m.wikipedia.org/wiki/P%C3%A8lerinage_de_Saint-Jacques-de-Compostelle"
+              >pèlerinage de Saint-Jacques-de-Compostelle</a
+            >.
+          </p>
+          <ul>
+            <li id="sectionOneLireSuite">
+              <a href="https://fr.m.wikipedia.org/wiki/Lescar" class="italic"
+                >Lire la suite</a
+              >
+            </li>
+          </ul>
+          <ul class="ulSectionOneLinks">
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Contenus_de_qualit%C3%A9"
+                class="bold"
+                >Contenu de qualité</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Bons_contenus"
+                class="bold"
+                >Bon contenu</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:S%C3%A9lection"
+                class="bold"
+                >Sélection</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Lumi%C3%A8re_sur"
+                class="bold"
+                >Programme</a
+              >
+            </li>
+          </ul>
+        </section>
+        <!--TODO Section n°2-->
+        <section class="sectionTwo">
+          <h2>Actualités</h2>
+          <div class="ligneHorizontale"></div>
+          <img class="imgSectionTwo" src="./img/imgActualite.jpg" />
+          <ul>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/26_ao%C3%BBt">26</a>
+              <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+              : au
+              <a href="https://fr.m.wikipedia.org/wiki/Zimbabwe">Zimbabwe</a>,
+              le président sortant,
+              <a href="https://fr.m.wikipedia.org/wiki/Emmerson_Mnangagwa"
+                >Emmerson Mnangagwa</a
+              >
+              <span class="italic">(photo)</span>, est proclamé vainqueur de
+              l'<a
+                class="bold"
+                href="https://fr.m.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_zimbabw%C3%A9enne_de_2023"
+                >élection présidentielle</a
+              >
+              tandis que l'opposition dénonce une
+              <a href="https://fr.m.wikipedia.org/wiki/Fraude_%C3%A9lectorale"
+                >fraude électorale</a
+              >.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/26_ao%C3%BBt">26</a>
+              <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+              : au <a href="https://fr.m.wikipedia.org/wiki/Gabon">Gabon</a> un
+              <a href="https://fr.m.wikipedia.org/wiki/Couvre-feu"
+                >couvre-feu</a
+              >
+              est instauré et internet est coupé au motif des élections
+              <a
+                href="https://fr.m.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_gabonaise_de_2023"
+                class="bold"
+                >présidentielle</a
+              >
+              et
+              <a
+                href="https://fr.m.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_gabonaises_de_2023"
+                class="bold"
+                >législatives</a
+              >. Un tentative de
+              <a href="https://fr.m.wikipedia.org/wiki/Coup_d%E2%80%99%C3%89tat"
+                >coup d’État</a
+              >
+              à lieu le 30 août.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/24_ao%C3%BBt">24</a>
+              <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+              : les
+              <a href="https://fr.m.wikipedia.org/wiki/BRICS" class="bold"
+                >BRICS</a
+              >
+              (<a href="https://fr.m.wikipedia.org/wiki/Br%C3%A9sil">Brésil</a>,
+              <a href="https://fr.m.wikipedia.org/wiki/Russie">Russie</a>,
+              <a href="https://fr.m.wikipedia.org/wiki/Inde">Inde</a>,
+              <a href="https://fr.m.wikipedia.org/wiki/Chine">Chine</a> et
+              <a href="https://fr.m.wikipedia.org/wiki/Afrique_du_Sud"
+                >Afrique du Sud</a
+              >) annoncent l'intégration de six nouveaux pays, prévue le
+              <a href="https://fr.m.wikipedia.org/wiki/1er_janvier"
+                >1er janvier</a
+              >
+              <a href="https://fr.m.wikipedia.org/wiki/2024">2024</a> :
+              <a href="https://fr.m.wikipedia.org/wiki/Argentine">Argentine</a>,
+              <a href="https://fr.m.wikipedia.org/wiki/Iran">Iran</a>,
+              <a href="https://fr.m.wikipedia.org/wiki/Arabie_saoudite"
+                >Arabie saoudite</a
+              >,
+              <a href="https://fr.m.wikipedia.org/wiki/%C3%89mirats_arabes_unis"
+                >Émirats arabes unis</a
+              >,
+              <a href="https://fr.m.wikipedia.org/wiki/%C3%89gypte">Égypte</a>
+              et
+              <a href="https://fr.m.wikipedia.org/wiki/%C3%89thiopie"
+                >Éthiopie</a
+              >.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/23_ao%C3%BBt">23</a>
+              <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+              : un
+              <a href="https://fr.m.wikipedia.org/wiki/Aviation_d%27affaires"
+                >avion d'affaires</a
+              >
+              appartenant à
+              <a href="https://fr.m.wikipedia.org/wiki/Evgueni_Prigojine"
+                >Evgueni Prigojine</a
+              >
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Crash_de_l%27avion_d%27Evgueni_Prigojine_et_de_Dmitri_Outkine"
+                class="bold"
+                >s'écrase</a
+              >
+              en <a href="https://fr.m.wikipedia.org/wiki/Russie">Russie</a> ;
+              son propriétaire et son bras droit
+              <a href="https://fr.m.wikipedia.org/wiki/Dmitri_Outkine"
+                >Dmitri Outkine</a
+              >
+              sont morts dans l'accident.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/23_ao%C3%BBt">23</a>
+              <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+              : la
+              <a href="https://fr.m.wikipedia.org/wiki/Sonde_spatiale">sonde</a>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Programme_spatial_de_l%27Inde"
+                >indienne</a
+              >
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Chandrayaan-3"
+                class="bold italic"
+                >Chandrayaan-3</a
+              >
+              <a href="https://fr.m.wikipedia.org/wiki/Atterrisseur">se pose</a>
+              avec succès
+              <a href="https://fr.m.wikipedia.org/wiki/Exploration_de_la_Lune"
+                >sur la Lune</a
+              >
+              ; premier
+              <a href="https://fr.m.wikipedia.org/wiki/Alunissage"
+                >atterrissage</a
+              >
+              réussi près du
+              <a href="https://fr.m.wikipedia.org/wiki/P%C3%B4le_Sud_de_la_Lune"
+                >pôle Sud de la Lune</a
+              >.
+            </li>
+          </ul>
+          <div class="ligneHorizontaleTwo"></div>
+          <p>
+            <span class="bold"
+              ><a
+                href="https://fr.m.wikipedia.org/wiki/Cat%C3%A9gorie:%C3%89v%C3%A9nement_en_cours"
+                >Événement en cours</a
+              ></span
+            >
+            :
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Feux_de_for%C3%AAt_de_2023_%C3%A0_Hawa%C3%AF"
+              >Feux de forêt à Hawaï</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Crise_nig%C3%A9rienne_de_2023"
+              >Crise au Niger</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Feux_de_for%C3%AAt_de_2023_en_Gr%C3%A8ce"
+              >Feux de forêt en Grèce</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Manifestations_de_2023_au_S%C3%A9n%C3%A9gal"
+              >Manifestations au Sénégal</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Gr%C3%A8ve_de_la_Writers_Guild_of_America_de_2023"
+              >Grève aux États-Unis</a
+            >
+            •
+            <a href="https://fr.m.wikipedia.org/wiki/Conflit_soudanais_de_2023"
+              >Conflit soudanais</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Feux_de_for%C3%AAt_de_2023_au_Canada"
+              >Feux de forêt au Canada</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Manifestations_contre_la_r%C3%A9forme_du_syst%C3%A8me_judiciaire_en_Isra%C3%ABl_de_2023"
+              >Manifestations en Israël</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Manifestations_cons%C3%A9cutives_%C3%A0_la_mort_de_Mahsa_Amini"
+              >Manifestations en Iran</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Invasion_de_l%27Ukraine_par_la_Russie"
+              >Invasion de l'Ukraine par la Russie</a
+            ><br /><a
+              href="https://fr.m.wikipedia.org/wiki/Championnat_d%27Europe_f%C3%A9minin_de_volley-ball_2023"
+              >Championnat d'Europe féminin de volley-ball</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Coupe_du_monde_masculine_de_basket-ball_2023"
+              >Coupe du monde masculine de basket-ball</a
+            >
+            •
+            <a href="https://fr.m.wikipedia.org/wiki/US_Open_de_tennis_2023"
+              >US Open de tennis</a
+            >
+            •
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Championnat_d%27Europe_masculin_de_volley-ball_2023"
+              >Championnat d'Europe masculin de volley-ball</a
+            >
+            •
+            <a href="https://fr.m.wikipedia.org/wiki/Tour_d%27Espagne_2023"
+              >Tour d'Espagne</a
+            >
+          </p>
+          <div class="ligneHorizontaleTwo"></div>
+          <img class="imageSectionTwo" src="./img/imgNecrologie.jpg" />
+          <p>
+            <span class="bold"
+              ><a
+                href="https://fr.m.wikipedia.org/wiki/Cat%C3%A9gorie:Mort_r%C3%A9cente"
+                >Nécrologie</a
+              ></span
+            >
+            : <a href="https://fr.m.wikipedia.org/wiki/29_ao%C3%BBt">29</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a> :
+            <a href="https://fr.m.wikipedia.org/wiki/Guillermo_Teillier"
+              >Guillermo Teillier</a
+            >
+            • <a href="https://fr.m.wikipedia.org/wiki/28_ao%C3%BBt">28</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a> :
+            <a href="https://fr.m.wikipedia.org/wiki/Pat_Corrales"
+              >Pat Corrales</a
+            >,<a
+              href="https://fr.m.wikipedia.org/wiki/Alan_Haworth_(baron_Haworth)"
+              >Alan Haworth</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Roger_Van_Hool"
+              >Roger Van Hool</a
+            >
+            • <a href="https://fr.m.wikipedia.org/wiki/27_ao%C3%BBt">27</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a> :
+            <a href="https://fr.m.wikipedia.org/wiki/Svetlana_Adyrkha%C3%AFeva"
+              >Svetlana Adyrkhaïeva</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/%C3%89l%C3%A9onore_Faucher"
+              >Éléonore Faucher</a
+            >
+            <span class="italic">(photo)</span>,
+            <a href="https://fr.m.wikipedia.org/wiki/Maurice_Fr%C3%A9chard"
+              >Maurice Fréchard</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Anvar_Ibragimov"
+              >Anvar Ibragimov</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Joe_le_plombier"
+              >Joe le plombier</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Robert_Pettinelli"
+              >Robert Pettinelli</a
+            >
+            • <a href="https://fr.m.wikipedia.org/wiki/26_ao%C3%BBt">26</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a> :
+            <a href="https://fr.m.wikipedia.org/wiki/Geraldo_Majella_Agnelo"
+              >Geraldo Majella Agnelo</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Bob_Barker">Bob Barker</a>,
+            <a href="https://fr.m.wikipedia.org/wiki/Axel_Bogousslavsky"
+              >Axel Bogousslavsky</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Bertrand_Marchand"
+              >Bertrand Marchand</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Gleb_Panfilov"
+              >Gleb Panfilov</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Yvon_Pedneault"
+              >Yvon Pedneault</a
+            >
+          </p>
+          <ul class="ulSectionTwoLinks">
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023"
+                class="bold"
+                >Août 2023</a
+              >
+              •
+            </li>
+            <li>
+              <a href="https://fr.wikinews.org/wiki/Accueil" class="bold"
+                >Wikinews</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Mod%C3%A8le:Accueil_actualit%C3%A9"
+                class="bold"
+                >Modifier</a
+              >
+            </li>
+          </ul>
+        </section>
+        <!--TODO Section n°3-->
+        <section>
+          <h2>Le saviez-vous ?</h2>
+          <div class="ligneHorizontale"></div>
+          <img class="imgSectionThree" src="./img/imgSavoir.JPG" />
+          <ul>
+            <li class="sectionTwoLiMargin">
+              Le
+              <a href="https://fr.m.wikipedia.org/wiki/Tampon_hygi%C3%A9nique"
+                >tampon hygiénique</a
+              >
+              de
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Donita_Sparks"
+                class="bold"
+                >Donita Sparks</a
+              >
+              <span class="italic">(photo)</span> est, relativement, beaucoup
+              plus
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Google_(moteur_de_recherche)"
+                >recherché</a
+              >
+              que les
+              <a href="https://fr.m.wikipedia.org/wiki/Vomissement"
+                >vomissures</a
+              >
+              d’<a href="https://fr.m.wikipedia.org/wiki/Iggy_Pop">Iggy Pop</a>.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/Fidji">Fidjien</a> d’<a
+                href="https://fr.m.wikipedia.org/wiki/Indiens_des_Fidji"
+                >origine indienne</a
+              >,
+              <a href="https://fr.m.wikipedia.org/wiki/Amjad_Ali" class="bold"
+                >Amjad Ali</a
+              >
+              a vécu deux
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Histoire_des_Fidji#Fidji_depuis_l'ind%C3%A9pendance"
+                >coups d’État anti-indiens</a
+              >,
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Coups_d%27%C3%89tat_de_1987_aux_Fidji"
+                >l’un</a
+              >
+              comme preneur d’otage,
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Coup_d%27%C3%89tat_de_2000-2001_aux_Fidji"
+                >l’autre</a
+              >
+              comme otage, avant de se retrouver dans le
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Alliance_populaire_(Fidji)"
+                >même parti</a
+              >
+              que l’<a href="https://fr.m.wikipedia.org/wiki/Sitiveni_Rabuka"
+                >organisateur du premier</a
+              >.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Brookesia_nana"
+                class="bold italc"
+                >Brookesia nana</a
+              >
+              a été décrite en 2021 comme la plus petite espèce connue de
+              <a href="https://fr.m.wikipedia.org/wiki/Chamaeleonidae"
+                >caméléons</a
+              >, avec une longueur totale de 21,6 mm pour le mâle
+              <a href="https://fr.m.wikipedia.org/wiki/Type_(biologie)#Holotype"
+                >holotype</a
+              >, soit 2 mm de moins que
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Brookesia_micra"
+                class="italic bold"
+                >Brookesia micra</a
+              >
+              qui détenait ce record depuis 2012.
+            </li>
+            <li class="sectionTwoLiMargin">
+              L’<a
+                href="https://fr.m.wikipedia.org/wiki/S%C5%93urs_de_la_Perp%C3%A9tuelle_Indulgence"
+                class="bold"
+                >Ordre de la Perpétuelle Indulgence</a
+              >
+              n’est pas
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Ordre_religieux#Christianisme_catholique"
+                >reconnu par le Vatican</a
+              >.
+            </li>
+            <li class="sectionTwoLiMargin">
+              Le
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Textes_des_pyramides"
+                class="bold"
+                >plus ancien texte religieux connu</a
+              >
+              a été révisé par un
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Correcteur_(%C3%A9dition,_presse)"
+                >correcteur</a
+              >
+              qui a demandé 163 modifications.
+            </li>
+            <li class="sectionTwoLiMargin">
+              Le magazine
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Literary_Review"
+                class="italic"
+                >Literary Review</a
+              >
+              distingue chaque année
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Bad_Sex_in_Fiction_Award"
+                class="bold"
+                >les pires scènes de sexe dans la littérature</a
+              >.
+            </li>
+          </ul>
+          <ul class="ulSectionOneLinks">
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Le_saviez-vous_%3F/Archives"
+                class="bold"
+                >Archives</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Le_saviez-vous_%3F/Anecdotes_propos%C3%A9es"
+                class="bold"
+                >Propositions</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Le_saviez-vous_%3F/Anecdotes_%C3%A0_publier"
+                class="bold"
+                >Programme</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Le_saviez-vous_%3F"
+                class="bold"
+                >Modifier</a
+              >
+            </li>
+          </ul>
+        </section>
+        <!--TODO Section n°4-->
+        <section>
+          <h2>Éphéméride du 30 août</h2>
+          <div class="ligneHorizontale"></div>
+          <ul>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/1922">1922</a> : la
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Bataille_de_Dumlup%C4%B1nar"
+                >bataille de Dumlupınar</a
+              >
+              met fin à la
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_turque"
+                >guerre d'indépendance turque</a
+              >.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/1963">1963</a> : le
+              <a
+                href="https://fr.m.wikipedia.org/wiki/T%C3%A9l%C3%A9phone_rouge"
+                >téléphone rouge</a
+              >
+              est mis en place entre le
+              <a href="https://fr.m.wikipedia.org/wiki/Kremlin_de_Moscou"
+                >Kremlin</a
+              >
+              et la
+              <a href="https://fr.m.wikipedia.org/wiki/Maison-Blanche"
+                >Maison-Blanche</a
+              >.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/1991">1991</a> : l'<a
+                href="https://fr.m.wikipedia.org/wiki/Azerba%C3%AFdjan"
+                >Azerbaïdjan</a
+              >
+              proclame son indépendance.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/1995">1995</a> : le
+              <a href="https://fr.m.wikipedia.org/wiki/Kazakhstan"
+                >Kazakhstan</a
+              >
+              adopte sa nouvelle constitution.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/1999">1999</a> : un
+              <a
+                href="https://fr.m.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_sur_l%27ind%C3%A9pendance_du_Timor_oriental"
+                >référendum sur l'indépendance</a
+              >
+              se tient au
+              <a href="https://fr.m.wikipedia.org/wiki/Timor_oriental"
+                >Timor oriental</a
+              >.
+            </li>
+            <li class="sectionTwoLiMargin">
+              <a href="https://fr.m.wikipedia.org/wiki/2013">2013</a> : la
+              découverte du
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Grand_Canyon_du_Groenland"
+                >Grand Canyon du Groenland</a
+              >
+              est annoncée.
+            </li>
+          </ul>
+          <ul class="ulSectionOneLinks">
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/30_ao%C3%BBt"
+                class="bold"
+                >Éphéméride détaillée du 30 août</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%89ph%C3%A9m%C3%A9ride"
+                class="bold"
+                >Archives</a
+              >
+              •
+            </li>
+            <li>
+              <a
+                href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%89ph%C3%A9m%C3%A9ride/30_ao%C3%BBt"
+                class="bold"
+                >Modifier</a
+              >
+            </li>
+          </ul>
+        </section>
+      </article>
+      <button class="languesButton" type="button">
+        <span class="bold">Langue</span>
+      </button>
+    </main>
+    <!--* Header [Desktop Version]-->
+    <header class="headerDesktopVersion">
+      <div class="image">
+        <img src="./img/wikipediaLogo_HeaderTwo.png" />
+      </div>
+      <div class="titlePresentation">
+        <p class="headingTitlePresentation">Wikipédia</p>
+        <p class="sous-titreTitlePresentation">
+          L'encyclopédie libre que vous pouvez améliorer
+        </p>
+      </div>
+      <div class="grid">
+        <div class="content">
+          <p>
+            <a
+              href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9"
+              class="bold"
+              >Accueil de la communauté</a
+            >
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            <a
+              href="https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter"
+              class="bold"
+              >Comment contribuer ?</a
+            >
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            <a
+              href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Principes_fondateurs"
+              class="bold"
+              >Principes fondateurs</a
+            >
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            <a href="https://fr.wikipedia.org/wiki/Portail:Accueil" class="bold"
+              >Portails thématiques</a
+            >
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            <a href="https://fr.wikipedia.org/wiki/Aide:Accueil" class="bold"
+              >Sommaire de l'aide</a
+            >
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            <a
+              href="https://fr.wikipedia.org/wiki/Aide:Poser_une_question"
+              class="bold"
+              >Poser une question</a
+            >
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!--* Main [Desktop Version]-->
+    <main class="mainDesktopVersion">
+      <section class="mainSectionOne">
+        <h2>Article labellisé du jour</h2>
+        <div class="ligneHorizontale"></div>
+        <img class="imgSectionOne" src="./img/imgArticleLabellise.JPG" />
+        <p>
+          <a href="https://fr.m.wikipedia.org/wiki/Lescar" class="bold"
+            >Lescar</a
+          >
+          est une
+          <a href="https://fr.m.wikipedia.org/wiki/Commune_(France)"
+            >commune française</a
+          >
+          située dans le
+          <a
+            href="https://fr.m.wikipedia.org/wiki/D%C3%A9partement_fran%C3%A7ais"
+            >département</a
+          >
+          des
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Pyr%C3%A9n%C3%A9es-Atlantiques"
+            >Pyrénées-Atlantiques</a
+          >
+          en
+          <a href="https://fr.m.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
+            >région</a
+          >
+          <a href="https://fr.m.wikipedia.org/wiki/Nouvelle-Aquitaine"
+            >Nouvelle-Aquitaine</a
+          >. Elle s'étend sur les contreforts de la chaîne des
+          <a href="https://fr.m.wikipedia.org/wiki/Pyr%C3%A9n%C3%A9es"
+            >Pyrénées</a
+          >, principalement au sein de la vallée du
+          <a href="https://fr.m.wikipedia.org/wiki/Gave_de_Pau">gave de Pau</a>.
+          La
+          <a href="https://fr.m.wikipedia.org/wiki/Ville_m%C3%A9di%C3%A9vale"
+            >ville médiévale</a
+          >
+          se développe sur un promontoire rocheux (Cité), surplombant le gave au
+          sud, et se trouve délimitée par le ruisseau du Lescourre au nord puis
+          par la plaine du
+          <a href="https://fr.m.wikipedia.org/wiki/Pont-Long">Pont-Long</a>.
+          Lescar est l'héritière de la cité
+          <a href="https://fr.m.wikipedia.org/wiki/Gaule_aquitaine"
+            >gallo-romaine</a
+          >
+          de Beneharnum, première capitale du peuple des
+          <a href="https://fr.m.wikipedia.org/wiki/B%C3%A9n%C3%A9harnais"
+            >Venarni</a
+          >
+          qui donne son nom à l'ancien État souverain du
+          <a href="https://fr.m.wikipedia.org/wiki/B%C3%A9arn">Béarn</a>. Des
+          traces de cette occupation
+          <a href="https://fr.m.wikipedia.org/wiki/Antiquit%C3%A9">antique</a>
+          sont retrouvées lors de fouilles menées, notamment dans le quartier du
+          Bialé, mais aussi avec la découverte des restes de la villa
+          Sent-Miquèu (Saint-Michel). La cité est en partie détruite durant le
+          ixe siècle lors des raids
+          <a href="https://fr.m.wikipedia.org/wiki/Vikings">vikings</a>.
+        </p>
+        <br />
+        <p>
+          Ayant perdu son rôle de capitale béarnaise, au profit de
+          <a href="https://fr.m.wikipedia.org/wiki/Morla%C3%A0s">Morlaàs</a>, la
+          cité se reconstruit à la fin du xe siècle sous l'impulsion du duc de
+          Gascogne
+          <a href="https://fr.m.wikipedia.org/wiki/Guillaume_Sanche_de_Gascogne"
+            >Guillaume Sanche</a
+          >. Il fait construire, en Haute-Ville, une chapelle dédiée à
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Marie_(m%C3%A8re_de_J%C3%A9sus)"
+            >sainte Marie</a
+          >
+          qui est consacrée
+          <a href="https://fr.m.wikipedia.org/wiki/Cath%C3%A9drale"
+            >cathédrale</a
+          >
+          en 1062. Elle devient le siège des
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Liste_des_%C3%A9v%C3%AAques_de_Lescar"
+            >évêques de Lescar</a
+          >, faisant suite à la cathédrale primitive de Saint-Julien en
+          Basse-Ville. Participant à la
+          <a href="https://fr.m.wikipedia.org/wiki/Reconquista" class="italic"
+            >Reconquista</a
+          >
+          au xiie siècle, l'évêque
+          <a href="https://fr.m.wikipedia.org/wiki/Guy_de_Lons">Guy de Lons</a>
+          remplace la chapelle-cathédrale par l'actuelle
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame-de-l%27Assomption_de_Lescar"
+            >cathédrale Notre-Dame-de-l'Assomption</a
+          >
+          de style
+          <a href="https://fr.m.wikipedia.org/wiki/Architecture_romane">roman</a
+          >. L'évêché structure la vie lescarienne jusqu'à la
+          <a
+            href="https://fr.m.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise"
+            >Révolution</a
+          >, avec la construction d'un
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Palais_%C3%A9piscopal_de_Lescar"
+            >palais épiscopal</a
+          >
+          au xive siècle. Le Béarn devient un État
+          <a href="https://fr.m.wikipedia.org/wiki/Protestantisme"
+            >protestant</a
+          >
+          au xvie siècle sous la figure de
+          <a href="https://fr.m.wikipedia.org/wiki/Jeanne_d%27Albret"
+            >Jeanne d'Albret</a
+          >. Symbole du pouvoir catholique, la cathédrale subit le saccage de
+          l'armée de
+          <a href="https://fr.m.wikipedia.org/wiki/Gabriel_Ier_de_Montgommery"
+            >Montgommery</a
+          >
+          en 1569 durant les
+          <a href="https://fr.m.wikipedia.org/wiki/Guerres_de_Religion_(France)"
+            >guerres de Religion</a
+          >. Finalement, Lescar perd le siège de son diocèse en 1790 dans le
+          cadre d'un regroupement avec
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Dioc%C3%A8se_de_Bayonne,_Lescar_et_Oloron"
+            >Bayonne</a
+          >
+          et
+          <a href="https://fr.m.wikipedia.org/wiki/Dioc%C3%A8se_d%27Oloron"
+            >Oloron</a
+          >. De cette période, Lescar garde plusieurs éléments patrimoniaux dont
+          ses remparts, en partie antiques, avec la porte de l'Esquirette et
+          certaines tours les constituant. En 1929, la crypte renfermant les
+          dépouilles de neuf rois, reines, princes et princesses du
+          <a href="https://fr.m.wikipedia.org/wiki/Royaume_de_Navarre"
+            >royaume de Navarre</a
+          >
+          est découverte dans la cathédrale.
+        </p>
+        <br />
+        <p>
+          Lescar devient un centre éducatif, tout d'abord avec l'installation de
+          l'<a
+            href="https://fr.m.wikipedia.org/wiki/Acad%C3%A9mie_protestante_du_B%C3%A9arn"
+            >Académie protestante du Béarn</a
+          >
+          en 1562, puis avec la décision d'<a
+            href="https://fr.m.wikipedia.org/wiki/Henri_IV_(roi_de_France)"
+            >Henri</a
+          >
+          IV d'implanter un collège de
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Clercs_r%C3%A9guliers_de_Saint-Paul"
+            >Barnabites</a
+          >. Ce collège, construit au xviiie siècle, est l'ancêtre de l'actuel
+          <a href="https://fr.m.wikipedia.org/wiki/Lyc%C3%A9e_Jacques-Monod"
+            >lycée Jacques-Monod</a
+          >. Après la
+          <a
+            href="https://fr.m.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise"
+            >Révolution</a
+          >, la commune perd de son influence et devient un satellite de
+          <a href="https://fr.m.wikipedia.org/wiki/Pau">Pau</a>
+          avec une importante activité agricole. La démographie lescarienne
+          reste stable jusqu'aux années 1960, avant une période d'expansion sous
+          l'effet de la
+          <a href="https://fr.m.wikipedia.org/wiki/P%C3%A9riurbanisation"
+            >périurbanisation</a
+          >. Aujourd'hui, Lescar est une commune d'environ 10 000 habitants
+          située au cœur de l'<a
+            href="https://fr.m.wikipedia.org/wiki/Aire_urbaine_de_Pau"
+            >aire urbaine de Pau</a
+          >. Outre sa fonction résidentielle, la commune a développé une forte
+          activité commerciale autour de la
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Parc_d%27activit%C3%A9_commerciale"
+            >zone commerciale</a
+          >
+          Lescar Soleil. L'histoire agricole de la commune se poursuit toujours,
+          avec la présence du siège social du groupe coopératif
+          <a href="https://fr.m.wikipedia.org/wiki/Euralis">Euralis</a>. Lescar
+          est l'une des étapes de la
+          <a href="https://fr.m.wikipedia.org/wiki/Via_Tolosana" class="italic"
+            >via Tolosana</a
+          >
+          du
+          <a
+            href="https://fr.m.wikipedia.org/wiki/P%C3%A8lerinage_de_Saint-Jacques-de-Compostelle"
+            >pèlerinage de Saint-Jacques-de-Compostelle</a
+          >.
+        </p>
+        <ul>
+          <li id="sectionOneLireSuite">
+            <a href="https://fr.m.wikipedia.org/wiki/Lescar" class="italic"
+              >Lire la suite</a
+            >
+          </li>
+        </ul>
+        <ul class="ulSectionOneLinks">
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Contenus_de_qualit%C3%A9"
+              class="bold"
+              >Contenu de qualité</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Bons_contenus"
+              class="bold"
+              >Bon contenu</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:S%C3%A9lection"
+              class="bold"
+              >Sélection</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Lumi%C3%A8re_sur"
+              class="bold"
+              >Programme</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="mainSectionTwo">
+        <h2>Présentation</h2>
+        <div class="ligneHorizontale"></div>
+        <p>
+          <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia">Wikipédia</a>
+          est un projet d’encyclopédie collective en ligne, universelle,
+          multilingue et fonctionnant sur le principe du
+          <a href="https://fr.wikipedia.org/wiki/Wiki">wiki</a>. Ce projet vise
+          à offrir un contenu librement réutilisable, objectif et vérifiable,
+          que chacun peut modifier et améliorer.<br /><br />
+          Wikipédia est définie par des
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Principes_fondateurs"
+            >principes fondateurs</a
+          >. Son contenu est sous
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+            >licence Creative Commons BY-SA</a
+          >. Il peut être
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia"
+            >copié et réutilisé sous la même licence</a
+          >, sous réserve d'en respecter les conditions. Wikipédia fournit tous
+          ses contenus gratuitement, sans publicité, et sans recourir à
+          l'exploitation des données personnelles de ses utilisateurs.<br /><br />
+          Les rédacteurs des articles de Wikipédia sont bénévoles. Ils
+          coordonnent leurs efforts au sein d'une communauté collaborative, sans
+          dirigeant.<br /><br />
+          Aujourd'hui,
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia_en_fran%C3%A7ais"
+            >Wikipédia en français</a
+          >
+          compte :
+        </p>
+        <div class="chiffresContainer">
+          <p>
+            <a
+              href="https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Statistiques"
+              class="bold"
+              >2 549 049</a
+            ><br />
+            articles
+          </p>
+          <p>
+            <a
+              href="https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Utilisateurs_actifs"
+              class="bold"
+              >16 782</a
+            ><br />
+            contributeurs enregistrés actifs
+          </p>
+        </div>
+
+        <h2 class="headingcontribution">Comment contribuer ?</h2>
+        <div class="ligneHorizontale"></div>
+        <p>
+          Chacun peut publier immédiatement du contenu en ligne, à condition de
+          respecter les règles essentielles établies par la
+          <a href="https://foundation.wikimedia.org/wiki/Terms_of_Use/fr"
+            >Fondation Wikimedia</a
+          >
+          et par la communauté ; par exemple, la
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:V%C3%A9rifiabilit%C3%A9"
+            >vérifiabilité du contenu</a
+          >, l'<a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Crit%C3%A8res_d%27admissibilit%C3%A9_des_articles"
+            >admissibilité des articles</a
+          >
+          et
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:R%C3%A8gles_de_savoir-vivre"
+            >garder une attitude cordiale</a
+          >.<br /><br />
+          De nombreuses pages d’aide sont à votre disposition, notamment pour
+          <a
+            href="https://fr.wikipedia.org/wiki/Aide:Comment_cr%C3%A9er_un_article"
+            >créer un article</a
+          >,
+          <a href="https://fr.wikipedia.org/wiki/Aide:Comment_modifier_une_page"
+            >modifier un article</a
+          >
+          ou
+          <a href="https://fr.wikipedia.org/wiki/Aide:Ins%C3%A9rer_une_image"
+            >insérer une image</a
+          >. N’hésitez pas à
+          <a href="https://fr.wikipedia.org/wiki/Aide:Poser_une_question"
+            >poser une question</a
+          >
+          pour être aidé dans vos premiers pas, notamment dans un des
+          <a href="https://fr.wikipedia.org/wiki/Projet:Accueil"
+            >projets thématiques</a
+          >
+          ou dans divers
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Avenue_des_caf%C3%A9s_et_bistros"
+            >espaces de discussion</a
+          >.<br /><br />
+          Les
+          <a href="https://fr.wikipedia.org/wiki/Aide:Discussion"
+            >pages de discussion</a
+          >
+          servent à centraliser les réflexions et les remarques permettant
+          d’améliorer les articles.<br />
+        </p>
+        <p>
+          <a href="https://fr.wikipedia.org/wiki/Aide:D%C3%A9buter" class="bold"
+            >Ressources pour débuter</a
+          >
+        </p>
+      </section>
+      <section class="mainSectionThree">
+        <h2>Actualités</h2>
+        <div class="ligneHorizontale"></div>
+        <img class="imgSectionTwo" src="./img/imgActualite.jpg" />
+        <ul class="ulpadding">
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/26_ao%C3%BBt">26</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+            : au
+            <a href="https://fr.m.wikipedia.org/wiki/Zimbabwe">Zimbabwe</a>, le
+            président sortant,
+            <a href="https://fr.m.wikipedia.org/wiki/Emmerson_Mnangagwa"
+              >Emmerson Mnangagwa</a
+            >
+            <span class="italic">(photo)</span>, est proclamé vainqueur de l'<a
+              class="bold"
+              href="https://fr.m.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_zimbabw%C3%A9enne_de_2023"
+              >élection présidentielle</a
+            >
+            tandis que l'opposition dénonce une
+            <a href="https://fr.m.wikipedia.org/wiki/Fraude_%C3%A9lectorale"
+              >fraude électorale</a
+            >.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/26_ao%C3%BBt">26</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+            : au <a href="https://fr.m.wikipedia.org/wiki/Gabon">Gabon</a> un
+            <a href="https://fr.m.wikipedia.org/wiki/Couvre-feu">couvre-feu</a>
+            est instauré et internet est coupé au motif des élections
+            <a
+              href="https://fr.m.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_gabonaise_de_2023"
+              class="bold"
+              >présidentielle</a
+            >
+            et
+            <a
+              href="https://fr.m.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_gabonaises_de_2023"
+              class="bold"
+              >législatives</a
+            >. Un tentative de
+            <a href="https://fr.m.wikipedia.org/wiki/Coup_d%E2%80%99%C3%89tat"
+              >coup d’État</a
+            >
+            à lieu le 30 août.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/24_ao%C3%BBt">24</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+            : les
+            <a href="https://fr.m.wikipedia.org/wiki/BRICS" class="bold"
+              >BRICS</a
+            >
+            (<a href="https://fr.m.wikipedia.org/wiki/Br%C3%A9sil">Brésil</a>,
+            <a href="https://fr.m.wikipedia.org/wiki/Russie">Russie</a>,
+            <a href="https://fr.m.wikipedia.org/wiki/Inde">Inde</a>,
+            <a href="https://fr.m.wikipedia.org/wiki/Chine">Chine</a> et
+            <a href="https://fr.m.wikipedia.org/wiki/Afrique_du_Sud"
+              >Afrique du Sud</a
+            >) annoncent l'intégration de six nouveaux pays, prévue le
+            <a href="https://fr.m.wikipedia.org/wiki/1er_janvier"
+              >1er janvier</a
+            >
+            <a href="https://fr.m.wikipedia.org/wiki/2024">2024</a> :
+            <a href="https://fr.m.wikipedia.org/wiki/Argentine">Argentine</a>,
+            <a href="https://fr.m.wikipedia.org/wiki/Iran">Iran</a>,
+            <a href="https://fr.m.wikipedia.org/wiki/Arabie_saoudite"
+              >Arabie saoudite</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/%C3%89mirats_arabes_unis"
+              >Émirats arabes unis</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/%C3%89gypte">Égypte</a>
+            et
+            <a href="https://fr.m.wikipedia.org/wiki/%C3%89thiopie">Éthiopie</a
+            >.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/23_ao%C3%BBt">23</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+            : un
+            <a href="https://fr.m.wikipedia.org/wiki/Aviation_d%27affaires"
+              >avion d'affaires</a
+            >
+            appartenant à
+            <a href="https://fr.m.wikipedia.org/wiki/Evgueni_Prigojine"
+              >Evgueni Prigojine</a
+            >
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Crash_de_l%27avion_d%27Evgueni_Prigojine_et_de_Dmitri_Outkine"
+              class="bold"
+              >s'écrase</a
+            >
+            en <a href="https://fr.m.wikipedia.org/wiki/Russie">Russie</a> ; son
+            propriétaire et son bras droit
+            <a href="https://fr.m.wikipedia.org/wiki/Dmitri_Outkine"
+              >Dmitri Outkine</a
+            >
+            sont morts dans l'accident.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/23_ao%C3%BBt">23</a>
+            <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a>
+            : la
+            <a href="https://fr.m.wikipedia.org/wiki/Sonde_spatiale">sonde</a>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Programme_spatial_de_l%27Inde"
+              >indienne</a
+            >
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Chandrayaan-3"
+              class="bold italic"
+              >Chandrayaan-3</a
+            >
+            <a href="https://fr.m.wikipedia.org/wiki/Atterrisseur">se pose</a>
+            avec succès
+            <a href="https://fr.m.wikipedia.org/wiki/Exploration_de_la_Lune"
+              >sur la Lune</a
+            >
+            ; premier
+            <a href="https://fr.m.wikipedia.org/wiki/Alunissage"
+              >atterrissage</a
+            >
+            réussi près du
+            <a href="https://fr.m.wikipedia.org/wiki/P%C3%B4le_Sud_de_la_Lune"
+              >pôle Sud de la Lune</a
+            >.
+          </li>
+        </ul>
+        <div class="ligneHorizontaleTwo"></div>
+        <p>
+          <span class="bold"
+            ><a
+              href="https://fr.m.wikipedia.org/wiki/Cat%C3%A9gorie:%C3%89v%C3%A9nement_en_cours"
+              >Événement en cours</a
+            ></span
+          >
+          :
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Feux_de_for%C3%AAt_de_2023_%C3%A0_Hawa%C3%AF"
+            >Feux de forêt à Hawaï</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Crise_nig%C3%A9rienne_de_2023"
+            >Crise au Niger</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Feux_de_for%C3%AAt_de_2023_en_Gr%C3%A8ce"
+            >Feux de forêt en Grèce</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Manifestations_de_2023_au_S%C3%A9n%C3%A9gal"
+            >Manifestations au Sénégal</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Gr%C3%A8ve_de_la_Writers_Guild_of_America_de_2023"
+            >Grève aux États-Unis</a
+          >
+          •
+          <a href="https://fr.m.wikipedia.org/wiki/Conflit_soudanais_de_2023"
+            >Conflit soudanais</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Feux_de_for%C3%AAt_de_2023_au_Canada"
+            >Feux de forêt au Canada</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Manifestations_contre_la_r%C3%A9forme_du_syst%C3%A8me_judiciaire_en_Isra%C3%ABl_de_2023"
+            >Manifestations en Israël</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Manifestations_cons%C3%A9cutives_%C3%A0_la_mort_de_Mahsa_Amini"
+            >Manifestations en Iran</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Invasion_de_l%27Ukraine_par_la_Russie"
+            >Invasion de l'Ukraine par la Russie</a
+          ><br /><a
+            href="https://fr.m.wikipedia.org/wiki/Championnat_d%27Europe_f%C3%A9minin_de_volley-ball_2023"
+            >Championnat d'Europe féminin de volley-ball</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Coupe_du_monde_masculine_de_basket-ball_2023"
+            >Coupe du monde masculine de basket-ball</a
+          >
+          •
+          <a href="https://fr.m.wikipedia.org/wiki/US_Open_de_tennis_2023"
+            >US Open de tennis</a
+          >
+          •
+          <a
+            href="https://fr.m.wikipedia.org/wiki/Championnat_d%27Europe_masculin_de_volley-ball_2023"
+            >Championnat d'Europe masculin de volley-ball</a
+          >
+          •
+          <a href="https://fr.m.wikipedia.org/wiki/Tour_d%27Espagne_2023"
+            >Tour d'Espagne</a
+          >
+        </p>
+        <div class="ligneHorizontaleTwo"></div>
+        <img class="imageSectionTwo" src="./img/imgNecrologie.jpg" />
+        <p>
+          <span class="bold"
+            ><a
+              href="https://fr.m.wikipedia.org/wiki/Cat%C3%A9gorie:Mort_r%C3%A9cente"
+              >Nécrologie</a
+            ></span
+          >
+          : <a href="https://fr.m.wikipedia.org/wiki/29_ao%C3%BBt">29</a>
+          <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a> :
+          <a href="https://fr.m.wikipedia.org/wiki/Guillermo_Teillier"
+            >Guillermo Teillier</a
+          >
+          • <a href="https://fr.m.wikipedia.org/wiki/28_ao%C3%BBt">28</a>
+          <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a> :
+          <a href="https://fr.m.wikipedia.org/wiki/Pat_Corrales">Pat Corrales</a
+          >,<a
+            href="https://fr.m.wikipedia.org/wiki/Alan_Haworth_(baron_Haworth)"
+            >Alan Haworth</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/Roger_Van_Hool"
+            >Roger Van Hool</a
+          >
+          • <a href="https://fr.m.wikipedia.org/wiki/27_ao%C3%BBt">27</a>
+          <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a> :
+          <a href="https://fr.m.wikipedia.org/wiki/Svetlana_Adyrkha%C3%AFeva"
+            >Svetlana Adyrkhaïeva</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/%C3%89l%C3%A9onore_Faucher"
+            >Éléonore Faucher</a
+          >
+          <span class="italic">(photo)</span>,
+          <a href="https://fr.m.wikipedia.org/wiki/Maurice_Fr%C3%A9chard"
+            >Maurice Fréchard</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/Anvar_Ibragimov"
+            >Anvar Ibragimov</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/Joe_le_plombier"
+            >Joe le plombier</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/Robert_Pettinelli"
+            >Robert Pettinelli</a
+          >
+          • <a href="https://fr.m.wikipedia.org/wiki/26_ao%C3%BBt">26</a>
+          <a href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023">août</a> :
+          <a href="https://fr.m.wikipedia.org/wiki/Geraldo_Majella_Agnelo"
+            >Geraldo Majella Agnelo</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/Bob_Barker">Bob Barker</a>,
+          <a href="https://fr.m.wikipedia.org/wiki/Axel_Bogousslavsky"
+            >Axel Bogousslavsky</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/Bertrand_Marchand"
+            >Bertrand Marchand</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/Gleb_Panfilov"
+            >Gleb Panfilov</a
+          >,
+          <a href="https://fr.m.wikipedia.org/wiki/Yvon_Pedneault"
+            >Yvon Pedneault</a
+          >
+        </p>
+        <ul class="ulSectionTwoLinks">
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Ao%C3%BBt_2023"
+              class="bold"
+              >Août 2023</a
+            >
+            •
+          </li>
+          <li>
+            <a href="https://fr.wikinews.org/wiki/Accueil" class="bold"
+              >Wikinews</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Mod%C3%A8le:Accueil_actualit%C3%A9"
+              class="bold"
+              >Modifier</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="mainSectionQuatre">
+        <h2>Éphéméride du 30 août</h2>
+        <div class="ligneHorizontale"></div>
+        <ul class="ulpadding">
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/1922">1922</a> : la
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Bataille_de_Dumlup%C4%B1nar"
+              >bataille de Dumlupınar</a
+            >
+            met fin à la
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_turque"
+              >guerre d'indépendance turque</a
+            >.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/1963">1963</a> : le
+            <a href="https://fr.m.wikipedia.org/wiki/T%C3%A9l%C3%A9phone_rouge"
+              >téléphone rouge</a
+            >
+            est mis en place entre le
+            <a href="https://fr.m.wikipedia.org/wiki/Kremlin_de_Moscou"
+              >Kremlin</a
+            >
+            et la
+            <a href="https://fr.m.wikipedia.org/wiki/Maison-Blanche"
+              >Maison-Blanche</a
+            >.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/1991">1991</a> : l'<a
+              href="https://fr.m.wikipedia.org/wiki/Azerba%C3%AFdjan"
+              >Azerbaïdjan</a
+            >
+            proclame son indépendance.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/1995">1995</a> : le
+            <a href="https://fr.m.wikipedia.org/wiki/Kazakhstan">Kazakhstan</a>
+            adopte sa nouvelle constitution.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/1999">1999</a> : un
+            <a
+              href="https://fr.m.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_sur_l%27ind%C3%A9pendance_du_Timor_oriental"
+              >référendum sur l'indépendance</a
+            >
+            se tient au
+            <a href="https://fr.m.wikipedia.org/wiki/Timor_oriental"
+              >Timor oriental</a
+            >.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/2013">2013</a> : la
+            découverte du
+            <a href="https://fr.m.wikipedia.org/wiki/Grand_Canyon_du_Groenland"
+              >Grand Canyon du Groenland</a
+            >
+            est annoncée.
+          </li>
+        </ul>
+        <ul class="ulSectionOneLinks">
+          <li>
+            <a href="https://fr.m.wikipedia.org/wiki/30_ao%C3%BBt" class="bold"
+              >Éphéméride détaillée du 30 août</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%89ph%C3%A9m%C3%A9ride"
+              class="bold"
+              >Archives</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%89ph%C3%A9m%C3%A9ride/30_ao%C3%BBt"
+              class="bold"
+              >Modifier</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="mainSectionCinq">
+        <h2>Le saviez-vous ?</h2>
+        <div class="ligneHorizontale"></div>
+        <img class="imgSectionThree" src="./img/imgSavoir.JPG" />
+        <ul class="ulpadding">
+          <li class="sectionTwoLiMargin">
+            Le
+            <a href="https://fr.m.wikipedia.org/wiki/Tampon_hygi%C3%A9nique"
+              >tampon hygiénique</a
+            >
+            de
+            <a href="https://fr.m.wikipedia.org/wiki/Donita_Sparks" class="bold"
+              >Donita Sparks</a
+            >
+            <span class="italic">(photo)</span> est, relativement, beaucoup plus
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Google_(moteur_de_recherche)"
+              >recherché</a
+            >
+            que les
+            <a href="https://fr.m.wikipedia.org/wiki/Vomissement">vomissures</a>
+            d’<a href="https://fr.m.wikipedia.org/wiki/Iggy_Pop">Iggy Pop</a>.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a href="https://fr.m.wikipedia.org/wiki/Fidji">Fidjien</a> d’<a
+              href="https://fr.m.wikipedia.org/wiki/Indiens_des_Fidji"
+              >origine indienne</a
+            >,
+            <a href="https://fr.m.wikipedia.org/wiki/Amjad_Ali" class="bold"
+              >Amjad Ali</a
+            >
+            a vécu deux
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Histoire_des_Fidji#Fidji_depuis_l'ind%C3%A9pendance"
+              >coups d’État anti-indiens</a
+            >,
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Coups_d%27%C3%89tat_de_1987_aux_Fidji"
+              >l’un</a
+            >
+            comme preneur d’otage,
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Coup_d%27%C3%89tat_de_2000-2001_aux_Fidji"
+              >l’autre</a
+            >
+            comme otage, avant de se retrouver dans le
+            <a href="https://fr.m.wikipedia.org/wiki/Alliance_populaire_(Fidji)"
+              >même parti</a
+            >
+            que l’<a href="https://fr.m.wikipedia.org/wiki/Sitiveni_Rabuka"
+              >organisateur du premier</a
+            >.
+          </li>
+          <li class="sectionTwoLiMargin">
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Brookesia_nana"
+              class="bold italc"
+              >Brookesia nana</a
+            >
+            a été décrite en 2021 comme la plus petite espèce connue de
+            <a href="https://fr.m.wikipedia.org/wiki/Chamaeleonidae"
+              >caméléons</a
+            >, avec une longueur totale de 21,6 mm pour le mâle
+            <a href="https://fr.m.wikipedia.org/wiki/Type_(biologie)#Holotype"
+              >holotype</a
+            >, soit 2 mm de moins que
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Brookesia_micra"
+              class="italic bold"
+              >Brookesia micra</a
+            >
+            qui détenait ce record depuis 2012.
+          </li>
+          <li class="sectionTwoLiMargin">
+            L’<a
+              href="https://fr.m.wikipedia.org/wiki/S%C5%93urs_de_la_Perp%C3%A9tuelle_Indulgence"
+              class="bold"
+              >Ordre de la Perpétuelle Indulgence</a
+            >
+            n’est pas
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Ordre_religieux#Christianisme_catholique"
+              >reconnu par le Vatican</a
+            >.
+          </li>
+          <li class="sectionTwoLiMargin">
+            Le
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Textes_des_pyramides"
+              class="bold"
+              >plus ancien texte religieux connu</a
+            >
+            a été révisé par un
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Correcteur_(%C3%A9dition,_presse)"
+              >correcteur</a
+            >
+            qui a demandé 163 modifications.
+          </li>
+          <li class="sectionTwoLiMargin">
+            Le magazine
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Literary_Review"
+              class="italic"
+              >Literary Review</a
+            >
+            distingue chaque année
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Bad_Sex_in_Fiction_Award"
+              class="bold"
+              >les pires scènes de sexe dans la littérature</a
+            >.
+          </li>
+        </ul>
+        <ul class="ulSectionOneLinks">
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Le_saviez-vous_%3F/Archives"
+              class="bold"
+              >Archives</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Le_saviez-vous_%3F/Anecdotes_propos%C3%A9es"
+              class="bold"
+              >Propositions</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Le_saviez-vous_%3F/Anecdotes_%C3%A0_publier"
+              class="bold"
+              >Programme</a
+            >
+            •
+          </li>
+          <li>
+            <a
+              href="https://fr.m.wikipedia.org/wiki/Wikip%C3%A9dia:Le_saviez-vous_%3F"
+              class="bold"
+              >Modifier</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="mainSectionSix">
+        <h2>Image labellisée du jour</h2>
+        <div class="ligneHorizontale"></div>
+        <figure>
+          <img class="imageLabelisee" src="./img/imgToday.jpg" />
+          <figcaption>
+            Le
+            <a href="https://fr.wikipedia.org/wiki/Gros-Horloge">Gros-Horloge</a
+            >, à <a href="https://fr.wikipedia.org/wiki/Rouen">Rouen</a>.<br />
+            <span class="italic spanImgToday"
+              >(définition réelle 2 470 x 4 377)</span
+            >
+          </figcaption>
+        </figure>
+        <ul>
+          <li>
+            <a
+              href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Image_du_jour/ao%C3%BBt_2023"
+              >Archives</a
+            >
+            •
+          </li>
+          <li>
+            <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Image_du_jour"
+              >Voir les images
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://commons.wikimedia.org/wiki/Commons:Images_de_qualit%C3%A9"
+              >Images de qualité sur Wikipédia Commons</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--* Footer-->
+    <!--! Footer [Desktop Version]-->
+    <footer class="footerDesktop">
+      <div class="footerDesktopLine">
+        <div class="footerDesktopLineImage">
+          <img src="./img/mainImageFooter-desktop.jpg" />
+        </div>
+      </div>
+      <p class="footerDesktopParapraph">
+        Wikipédia est hébergée par la
+        <a href="https://fr.wikipedia.org/wiki/Fondation_Wikim%C3%A9dia"
+          >Wikimedia Foundation</a
+        >, de même que les projets suivants, coordonnés sur le site
+        <a href="https://meta.wikimedia.org/wiki/Accueil">Méta-Wiki</a> :
+      </p>
+      <div class="footerDesktopGrid">
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet1.png" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a
+                href="https://commons.wikimedia.org/wiki/Accueil?uselang=fr"
+                class="bold"
+                >Commons</a
+              >
+            </p>
+            <p>Médiathèque</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet2.jpeg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a href="https://fr.wikivoyage.org/wiki/Accueil" class="bold"
+                >Wikivoyage</a
+              >
+            </p>
+            <p>Guide de voyage</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet3.jpeg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a href="https://fr.wikibooks.org/wiki/Accueil" class="bold"
+                >Wikilivres</a
+              >
+            </p>
+            <p>Manuels</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet4.jpeg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a
+                href="https://fr.wikiversity.org/wiki/Wikiversit%C3%A9:Accueil"
+                class="bold"
+                >Wikiversité</a
+              >
+            </p>
+            <p>Cours et exercices</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet5.jpeg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a
+                href="https://species.wikimedia.org/wiki/Accueil?uselang=fr"
+                class="bold"
+                >Wikispecies</a
+              >
+            </p>
+            <p>Répertoire taxonomique</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet6.jpeg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a
+                href="https://fr.wikiquote.org/wiki/Wikiquote:Accueil"
+                class="bold"
+                >Wikiquote</a
+              >
+            </p>
+            <p>Citations</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet7.jpeg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a
+                href="https://fr.wiktionary.org/wiki/Wiktionnaire:Page_d%E2%80%99accueil"
+                class="bold"
+                >Wiktionnaire</a
+              >
+            </p>
+            <p>Dictionnaire</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet8.jpg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a
+                href="https://fr.wikisource.org/wiki/Wikisource:Accueil"
+                class="bold"
+                >Wikisource</a
+              >
+            </p>
+            <p>Bibliothèque</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet9.jpg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a href="https://fr.wikinews.org/wiki/Accueil" class="bold"
+                >Wikinews</a
+              >
+            </p>
+            <p>Site d'actualité</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet10.jpg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a
+                href="https://www.wikifunctions.org/wiki/Wikifunctions:Main_Page"
+                class="bold"
+                >Wikifunctions</a
+              >
+            </p>
+            <p class="italic footerDesktopGridContent-newProjet">
+              nouveau projet - accès limité
+            </p>
+            <p>Bibliothèque de fonctions</p>
+          </div>
+        </div>
+        <div class="footerDesktopGridContent">
+          <img src="./img/footer-desktopVersion-projet11.jpg" />
+          <div class="footerDesktopGridContentText">
+            <p>
+              <a
+                href="https://www.wikidata.org/wiki/Wikidata:Main_Page?uselang=fr"
+                class="bold"
+                >Wikidata</a
+              >
+            </p>
+            <p>Base de données</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p>
+        La dernière modification de cette page a été faite le 30 août 2023 à
+        <span class="italic">unknown time</span>.
+      </p>
+      <p>
+        <a
+          href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia"
+          >Droit d'auteur</a
+        >
+        : les textes sont disponibles sous
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+          >licence Creative Commons attribution, partage dans les mêmes
+          conditions</a
+        >
+        ; d’autres conditions peuvent s’appliquer. Voyez les
+        <a
+          href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation"
+          >conditions d’utilisation</a
+        >
+        pour plus de détails, ainsi que les
+        <a
+          href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques"
+          >crédits graphiques</a
+        >.
+      </p>
+      <p>
+        Wikipedia® est une marque déposée de la
+        <a href="https://wikimediafoundation.org/">Wikimedia Foundation, Inc.</a
+        >, organisation de bienfaisance régie par le paragraphe
+        <a href="https://fr.wikipedia.org/wiki/501c">501(c)(3)</a> du code
+        fiscal des États-Unis.
+      </p>
+      <div class="footerDesktopLinksContainer">
+        <p>
+          <a
+            href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/fr"
+            >Politique de confidentialité</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia"
+            >À propos de Wikipédia</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux"
+            >Avertissements</a
+          >
+        </p>
+        <p>
+          <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact"
+            >Contacts</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct"
+            >Code de conduite</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://fr.m.wikipedia.org/w/index.php?title=Wikip%C3%A9dia:Accueil_principal&mobileaction=toggle_view_mobile"
+          >
+            Version mobile
+          </a>
+        </p>
+        <p>
+          <a href="https://developer.wikimedia.org/">Développeurs</a>
+        </p>
+        <p>
+          <a href="https://stats.wikimedia.org/#/fr.wikipedia.org"
+            >Statistiques</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement"
+            >Déclaration sur les témoins (cookies)</a
+          >
+        </p>
+        <a href="https://wikimediafoundation.org/"
+          ><img src="./img/wikimediaButton.png"
+        /></a>
+        <a href="https://www.mediawiki.org/"
+          ><img src="./img/poweredByMediaWiki.png"
+        /></a>
+      </div>
+    </footer>
+    <!--! Footer [Mobile Version]-->
+    <footer class="footerMobile">
+      <img class="imageFooter" src="./img/wikipediaLogoNavbar.png" />
+      <div class="ligneHorizontaleFooter"></div>
+      <p>
+        Le contenu est disponible sous licence
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+          >CC BY-SA 4.0</a
+        >
+        sauf mention contraire.
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use/fr"
+            >Conditions d’utilisation</a
+          >
+          •
+        </li>
+
+        <li>
+          <a
+            href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/fr"
+            >Politique de confidentialité</a
+          >
+          •
+        </li>
+        <li>
+          <a
+            href="https://fr.wikipedia.org/w/index.php?title=Wikip%C3%A9dia:Accueil_principal&mobileaction=toggle_view_desktop"
+            >Version de bureau</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

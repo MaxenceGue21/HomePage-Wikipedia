@@ -1,0 +1,417 @@
+/*! RESET CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** Header*/
+/* Navbar*/
+/*! Mobile Version*/
+.divHeadingDesktop {
+  display: none;
+}
+nav {
+  background-color: #eaecf0;
+  display: flex;
+  justify-content: space-between;
+}
+.navbarHeader2 {
+  display: none;
+}
+.navbarDesktop {
+  display: none;
+}
+.menuLineButton {
+  margin-left: 10px;
+}
+.imageNavbar {
+  width: 170px;
+}
+.headerDesktopVersion {
+  display: none;
+}
+.searchInput {
+  display: none;
+}
+@media screen and (min-width: 720px) {
+  .search {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    font-family: "Lato", sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  .searchInput {
+    display: inline;
+    border: 2px solid white;
+    padding: 5px;
+  }
+  .searchSpan {
+    position: absolute;
+    margin-left: -265px;
+    background-color: white;
+    padding: 5px;
+    padding-top: 5.6px;
+    padding: 5.7px;
+  }
+}
+.navContainerOne {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 719px) {
+  .searchSpan {
+    margin-top: 20px;
+  }
+}
+/*! Desktop Version*/
+@media screen and (min-width: 1200px) {
+  .navbarDesktop {
+    display: block;
+    background-color: white;
+    display: flex;
+  }
+  .navbarMobile {
+    display: none;
+  }
+  .imageLogoWikipedia {
+    width: 60px;
+    margin-right: 10px;
+  }
+  .imageLogoWikipediaOther {
+    width: 150px;
+  }
+  .imageSousTitreLogoWikipedia {
+    width: 160px;
+  }
+  .logoContainerNavbar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .navbarContainerOne {
+    display: flex;
+    margin-top: 20px;
+  }
+  .menuLineImage {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .searchInput {
+    display: inline;
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 5px;
+  }
+  .searchSpan {
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+    position: absolute;
+    margin-left: -354px;
+    padding: 3px;
+    background-color: white;
+  }
+  .buttonNavbar {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 1.3px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .navbarLinks {
+    margin-top: 20px;
+    display: flex;
+  }
+  .material-symbols-outlined {
+    margin-right: 40px;
+  }
+  .navbarLinksOne {
+    margin-right: 10px;
+  }
+  .headingMobile {
+    display: none;
+  }
+  .divHeadingDesktop {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    display: block;
+  }
+  .headingDesktop {
+    font-size: 1.8em;
+    margin-left: -3px;
+  }
+  .ligneHorizontaleDesktop {
+    background-color: gray;
+    margin-top: -15px;
+    height: 2px;
+  }
+}
+/* Title*/
+h1 {
+  font-size: 2em;
+  font-weight: lighter;
+  margin: 20px 0px 20px 20px;
+}
+/* Header 2 [Desktop Version]*/
+@media screen and (min-width: 1200px) {
+  .navbarHeader2 {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .navbarUlHeader2Container1 {
+    display: flex;
+    list-style-type: none;
+  }
+  .navbarUlHeader2Container2 {
+    display: flex;
+    list-style-type: none;
+  }
+}
+
+/** Main content*/
+.mainDesktopVersion {
+  display: none;
+}
+/* Article (Page)*/
+article {
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+.ligneHorizontale {
+  background-color: #bdd8fb;
+  height: 5px;
+  margin: 10px 10px;
+}
+p,
+li {
+  font-family: "Arial", "sans-serif";
+  font-size: 0.9em;
+}
+a {
+  text-decoration: none;
+  font-family: "Arial", "sans-serif";
+  color: #3370d7;
+}
+a:hover {
+  text-decoration: underline;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+/*TODO Section n°1*/
+.imgSectionOne {
+  width: 125px;
+  float: right;
+  margin-left: 15px;
+}
+#sectionOneLireSuite {
+  margin-top: 20px;
+}
+.ulSectionOneLinks {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+}
+/*TODO Section n°2*/
+.imgSectionTwo {
+  width: 125px;
+  float: right;
+  margin-left: 15px;
+}
+.sectionTwoLiMargin {
+  margin-top: 20px;
+}
+.ligneHorizontaleTwo {
+  background-color: #bdd8fb;
+  height: 2px;
+  margin: 10px 10px;
+}
+.imageSectionTwo {
+  width: 100px;
+  float: right;
+  margin-left: 15px;
+}
+.ulSectionTwoLinks {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+}
+/*TODO Section n°3*/
+.imgSectionThree {
+  width: 100px;
+  float: right;
+  margin-left: 15px;
+}
+/* --*/
+.languesButton {
+  margin-top: 50px;
+  font-size: 1.3em;
+}
+/* Header [Desktop Version]*/
+@media screen and (min-width: 1200px) {
+  .mainMobileVersion {
+    display: none;
+  }
+  .headerDesktopVersion {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(168, 215, 252);
+    background: linear-gradient(
+      0deg,
+      rgba(168, 215, 252, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .headingTitlePresentation {
+    font-size: 2em;
+    font-weight: bold;
+    color: #445577;
+  }
+  .sous-titreTitlePresentation {
+    color: #445577;
+    font-size: 0.8em;
+  }
+}
+/** Main [Desktop Version]*/
+@media screen and (min-width: 1200px) {
+  .mainDesktopVersion {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .mainSectionOne,
+  .mainSectionTwo,
+  .mainSectionThree,
+  .mainSectionQuatre,
+  .mainSectionCinq,
+  .mainSectionSix {
+    box-shadow: black 0px 0px 10px;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .mainSectionOne,
+  .mainSectionTwo {
+    margin-top: 30px;
+  }
+  .imageLabelisee {
+    width: 200px;
+  }
+  figure {
+    font-family: "Arial", "sans-serif";
+    text-align: center;
+  }
+  .spanImgToday {
+    font-size: 0.7em;
+  }
+  .ulpadding {
+    padding-left: 50px;
+  }
+  .headingcontribution {
+    margin-top: 100px;
+  }
+  .chiffresContainer {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/** Footer*/
+/*! Footer [Desktop Version]*/
+@media screen and (min-width: 1200px) {
+  .footerMobile {
+    display: none;
+  }
+  .footerDesktopLine {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 2px;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+  }
+  .footerDesktopLineImage {
+    text-align: center;
+  }
+  .footerDesktopParapraph {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footerDesktopGridContent {
+    display: flex;
+    align-items: center;
+  }
+  .footerDesktopGrid {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+  }
+  .footerDesktopGridContentText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .footerDesktopLinksContainer {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .footerDesktop {
+    display: none;
+  }
+}
+.footerMobile {
+  background-color: #eaecf0;
+  margin-top: 40px;
+  width: auto;
+}
+.imageFooter {
+  width: 170px;
+  margin-top: 30px;
+}
+.ligneHorizontaleFooter {
+  background-color: gray;
+  height: 2px;
+}
